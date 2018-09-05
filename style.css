@@ -1,0 +1,78 @@
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    padding-bottom: 10px;
+}
+
+.newToDo {
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.toDoForm button.newToDo :hover {
+
+}
+
+.formItem input {
+    text-align: center;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.formItem button.addButton :hover {
+    color: green;
+}
+
+ button.cancelButton :hover {
+    color: red;
+}
+
+.addButton {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.cancelButton {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.containter {
+    border-style: solid;
+}
+
+.table {
+    border-radius: 5px;
+    /* width: auto;
+    margin: 0px auto; */
+    float: none;
+}
+
+.table td {
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.table tr :hover {
+    background-color: #ffd394;
+}
+
+td button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.task {
+    padding-right: 65px;
+}
