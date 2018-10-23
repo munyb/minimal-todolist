@@ -8,7 +8,7 @@ class ToDo {
 // Example item variable.
 const item0 = new ToDo("Example 1");
 // Add item0 variable to myToDos array to view example.
-var myToDos = [];
+var myToDos = [item0, 'example2'];
 
 // Chagnes the div to a form taking user's with buttons to either add the input or close the form.
 function openForm () {
@@ -76,10 +76,5 @@ function remove(o) {
      //console.log(currentLength);
      myToDos.splice(parseInt(p.id), 1);
      loadLibrary();
-     // console.log(myToDos.length);
-     // if(myToDos.length < currentLength) {
-     //     console.log('removed');
-     // } else {
-     //     console.log('not removed');
-     // }
-    }
+
+}
